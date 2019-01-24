@@ -1,0 +1,13 @@
+logger:
+  kafka:
+        brokers:
+          - 10.30.8.55:9092
+        topic: sqllog
+behaviorLog:
+    kafka:
+      brokers:
+        - 10.30.8.55:9092
+      topic: behaviorlog
+debug: true
+service: sample-kafka
+httpport: 8080
